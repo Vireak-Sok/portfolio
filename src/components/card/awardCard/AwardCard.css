@@ -1,0 +1,12 @@
+.award-card {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #EEF7FB;
+    padding: 16px;
+}
+
+.award-icon {
+    width: 24px;
+}

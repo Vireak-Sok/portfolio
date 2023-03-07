@@ -1,0 +1,21 @@
+.main-btn {
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0F5E8B;
+    padding: 0 1%;
+    font-size: 24px;
+    border-radius: 4px;
+}
+
+.outlined-btn {
+        height: 52px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px #0F5E8B solid;
+        border-radius: 4px;
+        padding: 0 1%;
+        font-size: 24px;
+}

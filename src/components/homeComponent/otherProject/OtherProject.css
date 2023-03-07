@@ -1,0 +1,15 @@
+.other-project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+    padding: 0 10%; 
+}
+
+.other-project-card-container{
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}

@@ -1,0 +1,44 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+    padding: 0 10%; 
+}
+
+.contact-item-container{
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin: 0 0 32px 0;
+}
+
+.contact-item-container p {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-grow: 1;
+    margin: 0;
+}
+
+.contact-item-container .resume {
+    justify-content: flex-end;
+}
+
+.contact-item-container .phone-number {
+    justify-content: flex-start;
+}
+
+.contact-svg {
+    width: 24px;
+}
+
+.social-icon-container {
+    display: flex;
+    gap: 24px;
+}

@@ -1,0 +1,20 @@
+.main-project-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: lightgreen; */
+    z-index: 2;
+    margin-bottom: 64px;
+    gap: 32px;
+    padding: 0 10%; 
+}
+.row-container {
+    display: flex;
+    /* background-color: aqua; */
+    gap: 32px;
+}
+
+.seperator {
+    position: absolute;
+    z-index: -1;
+    top: 750px;
+}

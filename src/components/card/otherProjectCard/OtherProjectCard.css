@@ -1,0 +1,9 @@
+.other-project-card {
+    flex-grow: 1;
+}
+
+.other-project-thumbnail {
+    height: 128px;
+    background-color: aquamarine;
+    margin-bottom: 16px;
+}
