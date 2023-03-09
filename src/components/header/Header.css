@@ -10,13 +10,17 @@
 }
 
 .nav-link {
-    width: 20%;
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 .nav-link .link {
     text-decoration: none;
+}
+
+.nav-link .link:hover {
+    font-weight: bolder;
 }
 
 h3:hover {
