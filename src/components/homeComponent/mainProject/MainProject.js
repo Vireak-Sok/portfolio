@@ -5,7 +5,7 @@ import MainProjectCard from '../../card/mainProjectCard/MainProjectCard'
 const MainProject = () => {
   return (
     <>
-    <div className='seperator' style={{height: '300px', width: '100%', backgroundImage: 'linear-gradient(var(--mainBlue), var(--linkBlue))'}}/>
+    <div className='seperator' style={{height: '18rem', width: '100%', backgroundImage: 'linear-gradient(var(--mainBlue), var(--linkBlue))'}}/>
     <div className='main-project-container'>
       <div className='row-container'>
         <MainProjectCard/>

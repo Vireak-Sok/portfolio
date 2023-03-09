@@ -11,6 +11,12 @@
     font-weight: 600;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
+    transition: 0.1s linear 0.1s;
+}
+
+.main-btn:hover {
+    cursor: pointer;
+    background-image: linear-gradient(var(--mainBlue), var(--lightBlue));
 }
 
 .outlined-btn {
@@ -26,4 +32,13 @@
     font-weight: 600;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
+    background-image: none;
+    transition: 0.1s linear 0.1s;
+}
+
+.outlined-btn:hover {
+    cursor: pointer;
+    background-image: linear-gradient(var(--mainBlue), var(--lightBlue));
+    color: var(--bgWhite);
+    border: 1px var(--mainBlue) solid;
 }

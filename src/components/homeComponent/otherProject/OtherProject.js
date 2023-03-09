@@ -5,7 +5,7 @@ import './OtherProject.css'
 const OtherProject = () => {
   return (
     <div className='other-project-container'>
-      <h1>Other Projects</h1>
+      <h1>Other Works</h1>
       <div className='other-project-card-container'>
         <OtherProjectCard/>
         <OtherProjectCard/>

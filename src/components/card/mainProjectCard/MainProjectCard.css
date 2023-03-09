@@ -4,14 +4,23 @@
     /* border: 1px red solid; */
 }
 
+.card:hover {
+    background-color: var(--cardBg);
+    border-radius: 3%;
+}
+
 .card-img {
-    height: 344px;
+    height: 21rem;
     background-color: blue;
+}
+
+.card-title {
+    padding: 0 1rem;
 }
 
 .card .card-title h4 {
     display: flex;
-    margin: 1rem 0;
+    margin: 1rem 0 0.5rem 0;
     flex-grow: 1;
     justify-content: space-between;
     color: var(--black);
@@ -26,8 +35,14 @@
     font-weight: lighter;
 }
 
+.card .card-title h4 span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .card .card-title p {
     color: var(--black);
+    margin-bottom: 1rem;
 }
 
 .read-more-svg {

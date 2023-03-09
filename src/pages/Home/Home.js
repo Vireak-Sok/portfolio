@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react'
+import React, { useRef } from 'react'
 import Header from '../../components/header/Header'
 import Hero from '../../components/homeComponent/hero/Hero'
 import MainProject from '../../components/homeComponent/mainProject/MainProject'
@@ -18,7 +18,7 @@ const Home = () => {
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
-      top: elementRef.current.offsetTop - 150,
+      top: elementRef.current.offsetTop - 100,
       behavior: 'smooth'
     })
   }
@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <>
       <Header scrollToFunction={scrollToSection} workRef={work} aboutRef={about} contactRef={contact}/>
-      <Hero/>
+      <Hero scrollToFunction={scrollToSection} workRef={work}/>
       <div ref={work} className='work'>
         <MainProject/>
         <OtherProject/>
@@ -42,7 +42,7 @@ const Home = () => {
       <div ref={contact} className='contact'>
         <Contact/>
       </div>
-      <hr style={{width: '80%', backgroundColor: 'Gainsboro', height: '1px', color: 'none'}}/>
+      <hr style={{width: '80%', backgroundColor: 'Gainsboro', height: '1px', color: 'none', margin: '0 auto'}}/>
       <Footer/>
     </>
   )

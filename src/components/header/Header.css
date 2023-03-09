@@ -18,3 +18,7 @@
 .nav-link .link {
     text-decoration: none;
 }
+
+h3:hover {
+    cursor: pointer;
+}

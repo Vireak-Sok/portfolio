@@ -54,7 +54,7 @@ const Technology = () => {
 
   return (
     <div className='technology-container'>
-      <h1>Technology</h1>
+      <h1>Tool & Technology</h1>
         <div className='technology-row'>
           <TechnologyCard icon={FigmaIcon}/>
           <TechnologyCard icon={ProtopieIcon}/>

@@ -6,7 +6,7 @@ import './Hero.css';
 import Lottie from 'react-lottie';
 import animationData from '../../../assets/lotties/122224-profile-avatar-of-older-man'
 
-const Hero = () => {
+const Hero = ({scrollToFunction, workRef}) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -49,12 +49,12 @@ const Hero = () => {
       <div className='left-dot-bg'>{dotBg}</div>
       <div className='left-container'>
         <p>Browse the projects that I’ve worked on</p>
-        <MainButton/>
+        <MainButton scrollToFunction={scrollToFunction} workRef={workRef}/>
       </div>
       <div className='middle-container'>
-        <div style={{width: '325px', height: '325px', position: 'absolute', left: '50%', top: '48%', transform: 'translate(-50%, -50%)', borderRadius: '170px', border: '.5px #046FAB solid'}}/>
-        <div style={{width: '400px', height: '400px', position: 'absolute', left: '50%', top: '48%', transform: 'translate(-50%, -50%)', borderRadius: '200px', border: '.5px #046FAB solid'}}/>
-        <div style={{width: '475px', height: '475px', position: 'absolute', left: '50%', top: '48%', transform: 'translate(-50%, -50%)', borderRadius: '250px', border: '.5px #046FAB solid'}}/>
+        <div style={{width: '20rem', height: '20rem', position: 'absolute', left: '50%', top: '48%', transform: 'translate(-50%, -50%)', borderRadius: '170px', border: '.5px var(--lightBlue) solid'}}/>
+        <div style={{width: '25rem', height: '25rem', position: 'absolute', left: '50%', top: '48%', transform: 'translate(-50%, -50%)', borderRadius: '200px', border: '.5px var(--lightBlue) solid'}}/>
+        <div style={{width: '30rem', height: '30rem', position: 'absolute', left: '50%', top: '48%', transform: 'translate(-50%, -50%)', borderRadius: '250px', border: '.5px var(--lightBlue) solid'}}/>
         <Lottie 
 	        options={defaultOptions}
           height={400}

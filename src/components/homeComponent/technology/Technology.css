@@ -3,17 +3,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 64px;
-    gap: 24px;
+    margin-bottom: 4rem;
+    gap: 1.5rem;
     padding: 0 10%; 
 }
 
 .technology-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 64px;
+    gap: 2rem;
 }
 
 .technology-svg {
-    height: 50px;
+    height: 2rem;
+    width: auto;
 }
