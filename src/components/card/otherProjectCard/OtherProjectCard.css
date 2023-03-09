@@ -5,5 +5,9 @@
 .other-project-thumbnail {
     height: 128px;
     background-color: aquamarine;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
+}
+
+.other-project-title {
+    color: var(--black);
 }

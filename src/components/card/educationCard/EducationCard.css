@@ -3,10 +3,21 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: #EEF7FB;
+    background-color: var(--cardBg);
     padding: 16px;
+    color: var(--black);
+}
+
+.education-card .education-text p.education-title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.education-card .education-text p {
+    font-size: 0.88rem;
 }
 
 .education-icon {
-    width: 24px;
+    width: auto;
 }

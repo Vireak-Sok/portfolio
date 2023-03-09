@@ -9,18 +9,28 @@
     background-color: blue;
 }
 
-h4 {
+.card .card-title h4 {
     display: flex;
+    margin: 1rem 0;
     flex-grow: 1;
     justify-content: space-between;
+    color: var(--black);
 }
 
-h4 span {
+.card .card-title h4 span {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
+    color: var(--lightBlue);
+    font-size: 0.86rem;
+    font-weight: lighter;
+}
+
+.card .card-title p {
+    color: var(--black);
 }
 
 .read-more-svg {
-    width: 16px;
+    width: 1rem;
+    height: auto;
 }

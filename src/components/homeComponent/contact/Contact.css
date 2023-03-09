@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
     padding: 0 10%; 
 }
 
@@ -12,8 +12,8 @@
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
-    margin: 0 0 32px 0;
+    gap: 2rem;
+    margin: 0 0 2rem 0;
 }
 
 .contact-item-container p {
@@ -21,9 +21,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 0.5rem;
     flex-grow: 1;
     margin: 0;
+    color: var(--linkBlue);
 }
 
 .contact-item-container .resume {
@@ -35,10 +36,11 @@
 }
 
 .contact-svg {
-    width: 24px;
+    width: 1.5rem;
+    height: auto;
 }
 
 .social-icon-container {
     display: flex;
-    gap: 24px;
+    gap: 1.2rem;
 }

@@ -1,11 +1,11 @@
 .about-container {
     display: flex;
     /* flex-wrap: wrap; */
-    gap: 64px;
+    gap: 4rem;
     /* justify-content: center; */
     align-items: center;
-    background-image: linear-gradient(#0F5E8B, #0075B7);
-    margin-bottom: 64px;
+    background-image: linear-gradient(var(--mainBlue), var(--linkBlue));
+    margin-bottom: 4rem;
     padding: 3% 15%;
 }
 
@@ -27,29 +27,31 @@
 }
 
 .about-text p {
-    color: aliceblue;
+    color: var(--bgWhite);
 }
 
 .about-text .about-name {
-    font-size: 64px;
-    margin-bottom: 16px;
+    margin-top: 0;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
     text-transform: uppercase;
 }
 
 .about-text .about-title{
-    font-size: 32px;
-    margin-bottom: 16px;
+    font-size: 2rem;
+    margin-bottom: 1rem;
     text-transform: uppercase;
+    color: var(--bluishWhite);
 }
 
 .full-stack-icon {
-    width: 56px;
+    width: 3.5rem;
 }
 
 .office-icon {
-    width: 12px;
+    width: 0.8rem;
 }
 
 .home-icon {
-    width: 14px;
+    width: 0.86rem;
 }

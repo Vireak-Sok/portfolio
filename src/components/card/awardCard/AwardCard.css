@@ -3,10 +3,21 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: #EEF7FB;
+    background-color: var(--cardBg);
     padding: 16px;
+    color: var(--black);
+}
+
+.award-card .award-text p.award-title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.award-card .award-text p {
+    font-size: 0.88rem;
 }
 
 .award-icon {
-    width: 24px;
+    width: auto;
 }

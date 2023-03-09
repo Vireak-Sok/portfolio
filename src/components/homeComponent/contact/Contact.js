@@ -37,7 +37,7 @@ const Contact = () => {
   
   return (
     <div className='contact-container'>
-      <h1 style={{margin: '24px 0'}}>Contact</h1>
+      <h1>Contact</h1>
       <div className='contact-item-container'>
         <p className='phone-number'>{PhoneIcon} +855 96 736 1348</p>
         <p className='mail'>{MailIcon} sokvireak2000@gmail.com</p>

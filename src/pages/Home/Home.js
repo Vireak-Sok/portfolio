@@ -24,6 +24,7 @@ const Home = () => {
     <Education/>
     <Award/>
     <Contact/>
+    <hr style={{width: '80%', backgroundColor: 'Gainsboro', height: '1px', color: 'none'}}/>
     <Footer/>
     </>
   )

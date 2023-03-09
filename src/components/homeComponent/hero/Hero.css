@@ -1,5 +1,66 @@
-.hero {
-    /* background: red; */
+.hero-container {
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    z-index: 0;
+    padding: 0 10%; 
+    flex-wrap: wrap;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    gap: 2rem;
+}
+
+.middle-container {
+    /* border: 1px red solid; */
+    display: flex;
+    flex-grow: 1;
+    width: 33%;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    /* background-color: bisque; */
+    gap: 2rem;
+}
+
+.hero-container div p {
+    width: 40%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.left-dot-bg {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.right-dot-bg {
+    position: absolute;
+    bottom: 25%;
+    right: 20%;
+}
+
+.hero-container p{
+    color: var(--black);
+}
+/* .hero {
+    background: red;
     height: 80vh;
     display: flex;
     z-index: 0;
@@ -17,6 +78,7 @@
 .btn-holder {
     display: flex;
     flex-direction: row;
+    gap: 32px;
 }
 
 .hero-img-container {
@@ -41,4 +103,4 @@ svg {
     position: absolute;
     width: 100%;
     height: auto;
-}
+} */

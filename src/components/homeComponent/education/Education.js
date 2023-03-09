@@ -5,7 +5,7 @@ import './Education.css'
 const Education = () => {
   return (
     <div className='education-container'>
-      <h1 style={{margin: '24px 0'}}>Education</h1>
+      <h1>Education</h1>
       <div className='education-card-container'>
         <EducationCard/>
         <EducationCard/>

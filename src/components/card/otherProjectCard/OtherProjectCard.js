@@ -8,7 +8,7 @@ const OtherProjectCard = () => {
 
         </div>
         <div className='other-project-title'>
-        OtherProjectCard
+          OtherProjectCard
         </div>
     </div>
   )

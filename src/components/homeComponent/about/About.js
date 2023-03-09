@@ -28,10 +28,10 @@ const About = () => {
       <div className='about-text'>
         <p className='about-name'>Vireak Sok</p>
         <p className='about-title'>Full Stack Designer {FullStackIcon}</p>
-        <p style={{fontSize:'20px', marginBottom: '24px'}}>I focus on designing usable UX and eye-catching interface and bringing it to real useful product by my frontend coding ability.</p>
-        <p style={{fontSize:'20px', marginBottom: '24px'}}>{OfficeIcon} <b>UX/UI Designer at Kirirom Digital Cambodia</b></p>
-        <p style={{fontSize:'20px', marginBottom: '24px'}}>Aside from design, I play sports, workout, and watching YouTube video as my hobby.</p>
-        <p style={{fontSize:'20px'}}>{HomeIcon} <b>Based in Phnom Penh</b></p>
+        <p style={{fontSize:'1.25rem', marginBottom: '1.5rem'}}>I focus on designing usable UX and eye-catching interface and bringing it to real useful product by my frontend coding ability.</p>
+        <p style={{fontSize:'1.25rem', marginBottom: '1,5rem'}}>{OfficeIcon} <b>UX/UI Designer at Kirirom Digital Cambodia</b></p>
+        <p style={{fontSize:'1.25rem', marginBottom: '1.5rem'}}>Aside from design, I play sports, workout, and watching YouTube video as my hobby.</p>
+        <p style={{fontSize:'1.25rem'}}>{HomeIcon} <b>Based in Phnom Penh</b></p>
 
       </div>
     </div>

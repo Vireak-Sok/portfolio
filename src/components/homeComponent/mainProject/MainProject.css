@@ -16,5 +16,5 @@
 .seperator {
     position: absolute;
     z-index: -1;
-    top: 750px;
+    top: 80vh;
 }

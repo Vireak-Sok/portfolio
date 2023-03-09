@@ -1,21 +1,29 @@
 .main-btn {
-    height: 52px;
+    height: 3.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #0F5E8B;
-    padding: 0 1%;
-    font-size: 24px;
-    border-radius: 4px;
+    background: var(--mainBlue);
+    padding: 0 15%;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    color: var(--bgWhite);
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
 }
 
 .outlined-btn {
-        height: 52px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px #0F5E8B solid;
-        border-radius: 4px;
-        padding: 0 1%;
-        font-size: 24px;
+    height: 3.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px var(--mainBlue) solid;
+    border-radius: 0.25rem;
+    padding: 0 15%;
+    color: var(--mainBlue);
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
 }
