@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import Header from '../../components/header/Header'
 import Hero from '../../components/homeComponent/hero/Hero'
 import MainProject from '../../components/homeComponent/mainProject/MainProject'
@@ -12,20 +12,38 @@ import Contact from '../../components/homeComponent/contact/Contact'
 import Footer from '../../components/footer/Footer'
 
 const Home = () => {
+  const work = useRef(null)
+  const about = useRef(null)
+  const contact = useRef(null)
+
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop - 150,
+      behavior: 'smooth'
+    })
+  }
+
+
   return (
     <>
-    <Header/>
-    <Hero/>
-    <MainProject/>
-    <OtherProject/>
-    <About/>
-    <Technology/>
-    <Experience/>
-    <Education/>
-    <Award/>
-    <Contact/>
-    <hr style={{width: '80%', backgroundColor: 'Gainsboro', height: '1px', color: 'none'}}/>
-    <Footer/>
+      <Header scrollToFunction={scrollToSection} workRef={work} aboutRef={about} contactRef={contact}/>
+      <Hero/>
+      <div ref={work} className='work'>
+        <MainProject/>
+        <OtherProject/>
+      </div>
+      <div ref={about} className='about'>
+        <About/>
+        <Technology/>
+        <Experience/>
+        <Education/>
+        <Award/>
+      </div>
+      <div ref={contact} className='contact'>
+        <Contact/>
+      </div>
+      <hr style={{width: '80%', backgroundColor: 'Gainsboro', height: '1px', color: 'none'}}/>
+      <Footer/>
     </>
   )
 }
