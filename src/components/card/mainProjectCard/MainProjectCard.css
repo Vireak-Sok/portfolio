@@ -1,23 +1,17 @@
 .card { 
     flex-grow: 1;
+    /* background: lime; */
+    /* border: 1px red solid; */
+}
+
+.card:hover {
     background-color: var(--cardBg);
-    border-radius: 1.5rem;
+    border-radius: 3%;
 }
 
 .card-img {
     height: 21rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top-left-radius: 1.5rem;
-    border-top-right-radius: 1.5rem;
-}
-
-.card-img img {
-    border-radius: 1.5rem;
-    width: 65%;
-    max-width: 416px;
-    height: auto;
+    background-color: blue;
 }
 
 .card-title {
