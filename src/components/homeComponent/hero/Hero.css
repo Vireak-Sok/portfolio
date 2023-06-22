@@ -1,61 +1,18 @@
 .hero-container {
     height: 80vh;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     z-index: 0;
-    padding: 0 10%; 
+    padding: 0 10%;
     flex-wrap: wrap;
+    box-shadow: 1rem;
+    gap: .75rem;
 }
 
-.left-container {
+.btn-container {
     display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    width: 33%;
-    align-items: center;
     justify-content: center;
-    /* background-color: aquamarine; */
     gap: 2rem;
-}
-
-.middle-container {
-    /* border: 1px red solid; */
-    display: flex;
-    flex-grow: 1;
-    width: 33%;
-    align-items: center;
-    /* background-color: aqua; */
-}
-
-.right-container {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    width: 33%;
-    align-items: center;
-    justify-content: center;
-    /* background-color: bisque; */
-    gap: 2rem;
-}
-
-.hero-container div p {
-    width: 40%;
-    text-align: center;
-    font-size: 1rem;
-}
-
-.left-dot-bg {
-    position: absolute;
-    top: 20%;
-    left: 20%;
-}
-
-.right-dot-bg {
-    position: absolute;
-    bottom: 25%;
-    right: 20%;
-}
-
-.hero-container p{
-    color: var(--black);
 }

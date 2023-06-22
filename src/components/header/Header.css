@@ -1,12 +1,16 @@
 .header-container {
     /* background: blue; */
+    width: fill;
     display: flex;
     justify-content: space-between;
     padding: 1% 10%;
-    position: sticky;
+    position: fixed;
     top: 0;
     background-color: aliceblue;
     z-index: 1100;
+    transition-timing-function: ease-in;
+    transition: .3s;
+    border-bottom:  1px solid var(--black);
 }
 
 .nav-link {

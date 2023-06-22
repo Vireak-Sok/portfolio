@@ -23,7 +23,6 @@ const Home = () => {
     })
   }
 
-
   return (
     <>
       <Header scrollToFunction={scrollToSection} workRef={work} aboutRef={about} contactRef={contact}/>
