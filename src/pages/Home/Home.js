@@ -41,7 +41,7 @@ const Home = () => {
       <div ref={contact} className='contact'>
         <Contact/>
       </div>
-      <hr style={{width: '80%', backgroundColor: 'Gainsboro', height: '1px', color: 'none', margin: '0 auto'}}/>
+      <hr style={{width: '80%', backgroundColor: 'red', height: '1px', color: 'none', margin: '0 auto'}}/>
       <Footer/>
     </>
   )
