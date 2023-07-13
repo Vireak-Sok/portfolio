@@ -26,7 +26,7 @@ const About = () => {
           <img src={require('../../../assets/about-profile.png')} alt='Vireak Sok'/>
       </div>
       <div className='about-text'>
-        <p className='about-name'>សុខ រួមរក្ស</p>
+        <p className='about-name'>Sok Vireak</p>
         <p className='about-title'>Full Stack Designer {FullStackIcon}</p>
         <p style={{fontSize:'1rem', marginBottom: '1.5rem'}}>I focus on designing usable UX and eye-catching interface and bringing it to real useful product by my frontend coding ability.</p>
         <p style={{fontSize:'1rem', marginBottom: '1,5rem'}}>{OfficeIcon} <b>UX/UI Designer at Kirirom Digital Cambodia</b></p>
