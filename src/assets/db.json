@@ -8,7 +8,7 @@
             "project_name":"KDC Website",
             "project_duration": "Jan 1, 2023 - Feb 20, 2023",
             "project_description": "Kirirom Digital Cambodia (KDC) is a technology outsourcing company based in Cambodia. The project aimed to build a landing page for the target clients to vitualize the services that the company provides.",
-            "thumbnail": "../assets/images/project-thumbnails/kdc-thumbnail.png",
+            "thumbnail": "require('src/assets/images/project-thumbnails/kdc-thumbnail.png')",
             "path": "project-1",
             "external_url": "https://en.kirirom-digital.com",
             "download_url": ""
