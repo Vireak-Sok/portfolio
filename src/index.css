@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+@font-face {
+    font-family: Hero-Font;
+    src: url("../src/assets/fontS/Denk_One/DenkOne-Regular.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family: Main-Font;
+    src: url("../src/assets/fonts/Maven_Pro/static/MavenPro-Regular.ttf") format("truetype");
+  }
+
+@layer base {
+  main {
+    @apply flex min-h-screen flex-col items-center justify-start md:justify-between m-0 pb-16 md:pb-32 transition-all duration-500 ease-in-out delay-100 bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-100 font-main-font;
+  }
+
+  .page-section {
+    @apply w-full md:px-24 lg:px-64 px-8;
+  }
+
+  .page-title {
+    @apply text-3xl md:text-5xl pb-6 pt-6 md:pt-12 font-bold;
+  }
+
+  .page-description {
+    @apply text-xs md:text-xl font-light text-slate-400;
+  }
+}
