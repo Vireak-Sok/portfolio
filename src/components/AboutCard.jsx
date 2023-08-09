@@ -1,4 +1,4 @@
-function ResumeCard({duration, title, description, company}) {
+function AboutCard({duration, title, description, company}) {
   return (
     <section class="flex flex-col justify-between flex-1 border border-solid border-slate-400">
       <p class="pt-6 px-6 w-full text-slate-400">{duration}</p>
@@ -9,4 +9,4 @@ function ResumeCard({duration, title, description, company}) {
   )
 }
 
-export default ResumeCard
+export default AboutCard

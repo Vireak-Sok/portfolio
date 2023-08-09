@@ -1,7 +1,7 @@
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Project from './pages/Project';
-import Resume from './pages/Resume';
+import About from './pages/About';
 import Work from './pages/Work';
 import { Route, Routes } from "@solidjs/router";
 
@@ -12,7 +12,7 @@ function App() {
       <Route path={"/work"} component={Work}/>
       <Route path={"/work/:name"} component={Project}/>
       <Route path={"/contact"} component={Contact}/>
-      <Route path={"/resume"} component={Resume}/>
+      <Route path={"/about"} component={About}/>
     </Routes>
   );
 }

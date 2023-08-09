@@ -22,7 +22,7 @@ function Home() {
             <A href='/contact' class="hover:text-slate-800 dark:hover:text-slate-100 transition-colors">Contact</A>
           </li>
           <li>
-            <A href='/resume' class="hover:text-slate-800 dark:hover:text-slate-100 transition-colors">Resume</A>
+            <A href='/about' class="hover:text-slate-800 dark:hover:text-slate-100 transition-colors">About</A>
           </li>
         </ul>
       </nav>

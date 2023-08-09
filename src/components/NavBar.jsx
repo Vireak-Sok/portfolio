@@ -49,13 +49,13 @@ function NavBar() {
             </A>
           </li>
           <li>
-            <A href='/resume' class={
-              location.pathname == '/resume'
+            <A href='/about' class={
+              location.pathname == '/about'
               ? "text-slate-800 dark:text-slate-100 font-semibold cursor-default"
               : "text-slate-400 hover:text-slate-800 dark:hover:text-slate-100"
               }
             >
-              resume
+              about
             </A>
           </li>
         </ul>
@@ -86,13 +86,13 @@ function NavBar() {
             </A>
           </li>
           <li>
-            <A href='/resume' class={
-              location.pathname == '/resume'
+            <A href='/about' class={
+              location.pathname == '/about'
               ? "text-slate-800 dark:text-slate-100 font-semibold cursor-default"
               : "text-slate-400 hover:text-slate-800 dark:hover:text-slate-100"
               }
             >
-              resume
+              about
             </A>
           </li>
         </ul>

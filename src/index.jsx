@@ -15,7 +15,7 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
 
 render(
   () => (
-    <Router> {/* 👈 Wrap the router around the app */}
+    <Router>
       <App />
     </Router>
   ), root
