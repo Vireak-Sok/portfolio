@@ -8,7 +8,7 @@ body {
 
 @font-face {
     font-family: Hero-Font;
-    src: url("../src/assets/fontS/Denk_One/DenkOne-Regular.ttf") format("truetype");
+    src: url("../src/assets/fonts/Denk_One/DenkOne-Regular.ttf") format("truetype");
   }
 
 @font-face {
