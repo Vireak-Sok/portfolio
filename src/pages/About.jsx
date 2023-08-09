@@ -1,16 +1,16 @@
 import NavBar from "../components/NavBar"
 import data from "../assets/db.json"
-import ResumeCard from "../components/ResumeCard"
 import { For, Show, onMount } from "solid-js"
 import OutlineButton from "../components/OutlineButton"
+import AboutCard from "../components/AboutCard"
 
-function Resume() {
+function About() {
   const experiences = data.experiences
   const educations = data.educations
   const awards = data.awards
 
   onMount(() => {
-    document.title = 'Vireak Sok - Resume'
+    document.title = 'Vireak Sok - About'
   });
 
   return (
@@ -23,7 +23,7 @@ function Resume() {
           <div class="container m-auto grid grid-cols-1 md:grid-cols-2 gap-8 my-8 md:my-16">
             <For each={experiences}>
               {(experience) => (
-                <ResumeCard title={experience.position} duration={experience.duration} description={experience.description} company={experience.company_name}/>
+                <AboutCard title={experience.position} duration={experience.duration} description={experience.description} company={experience.company_name}/>
               )}
             </For>
           </div>
@@ -34,7 +34,7 @@ function Resume() {
           <div class="container m-auto grid grid-cols-1 md:grid-cols-2 gap-8 my-8 md:my-16">
             <For each={educations}>
               {(education) => (
-                <ResumeCard title={education.degree} duration={education.duration} company={education.school_name}/>
+                <AboutCard title={education.degree} duration={education.duration} company={education.school_name}/>
               )}
             </For>
           </div>
@@ -45,7 +45,7 @@ function Resume() {
           <div class="container m-auto grid grid-cols-1 md:grid-cols-2 gap-8 my-8 md:my-16">
             <For each={awards}>
               {(award) => (
-                <ResumeCard title={award.rank} duration={award.date} company={award.event}/>
+                <AboutCard title={award.rank} duration={award.date} company={award.event}/>
               )}
             </For>
           </div>
@@ -56,4 +56,4 @@ function Resume() {
   )
 }
 
-export default Resume
+export default About
