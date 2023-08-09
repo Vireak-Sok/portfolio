@@ -1,0 +1,188 @@
+{
+    "info": {
+            "name" : "Vireak Sok",
+            "title" : "Full Stack Designer"
+    },
+    "projects":[
+        {
+            "project_name":"KDC Website",
+            "project_duration": "Jan 1, 2023 - Feb 20, 2023",
+            "project_description": "Kirirom Digital Cambodia (KDC) is a technology outsourcing company based in Cambodia. The project aimed to build a landing page for the target clients to vitualize the services that the company provides.",
+            "thumbnail": "../src/assets/images/project-thumbnails/kdc-thumbnail.png",
+            "path": "project-1",
+            "external_url": "https://en.kirirom-digital.com",
+            "download_url": ""
+        },
+        {
+            "project_name":"KDJ Website",
+            "project_duration": "Mar 1, 2023 - Mar 30, 2023",
+            "project_description": "The project's target is to redesign the existing website of Kirirom Digital Japan that is a branch of Kirirom Digital company based in Japan to be a minimalistic and easy to read for the clients and job seekers.",
+            "thumbnail": "../src/assets/images/project-thumbnails/kdj-thumbnail.png",
+            "path": "project-2",
+            "external_url": "https://www.kirirom-digital.com",
+            "download_url": ""
+        },
+        {
+            "project_name":"Locol",
+            "project_duration": "Apr 5, 2023 - May 25, 2023",
+            "project_description": "Locol is a conceptual design of an mobile application that opens for local people to quickly find the handy guys in the neighborhood to help solving some issues that the can earn some side hustle for their work.",
+            "thumbnail": "../src/assets/images/project-thumbnails/locol-thumbnail.png",
+            "design_detail": "../src/assets/images/project-details/locol.png",
+            "path": "project-3",
+            "download_url": "../src/assets/project-pdf/locol.pdf",
+            "prototype_url": "https://www.figma.com/proto/0DZMqQG6SzlERDtQcVDuFA/Locol?type=design&node-id=26-2452&t=JU9YSdLXQwekEUtR-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=26%3A2452&mode=design"
+        },
+        {
+            "project_name":"Wize",
+            "project_duration": "Jun 1, 2023 - Aug 25, 2023",
+            "project_description": "Wize is a human resource management software (HRMS) and collaboration tool integration mobile application that eases the daily work of human resource department and the collaboration in the team among the company.",
+            "thumbnail": "../src/assets/images/project-thumbnails/wize-thumbnail.png",
+            "design_detail": "../src/assets/images/project-details/wize.png",
+            "path": "project-4",
+            "download_url": "../src/assets/project-pdf/wize.pdf",
+            "prototype_url": "https://www.figma.com/proto/fiGf9Luep1YE0FAQbJccNJ/ERP-app?type=design&node-id=551-3047&t=th5fgI8P3xiN74Tg-1&scaling=min-zoom&page-id=1%3A2&starting-point-node-id=551%3A3047&show-proto-sidebar=1&mode=design"
+        }
+    ],
+    "sideProjects":[
+        {
+            "project_name":"Finance App For Watch",
+            "project_description": "A watch app to monitor the stock market and exchange rate",
+            "thumbnail": "../src/assets/images/project-thumbnails/stock-thumbnail.png",
+            "design_detail": "../src/assets/images/project-details/watch-app.png",
+            "path": "side-project-1",
+            "download_url": "../src/assets/project-pdf/watch-app.pdf",
+            "prototype_url": "https://www.figma.com/proto/jTwBuP967HnOVspDtR6nHp/watch-app?type=design&node-id=1-15&t=NTsmmU9wur2sw34C-1&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A15&mode=design"
+        },
+        {
+            "project_name":"Hakse Website",
+            "project_description": "Redesigning Hakse Phone Shop website",
+            "thumbnail": "../src/assets/images/project-thumbnails/hakse-thumbnail.png",
+            "design_detail": "../src/assets/images/project-details/hakse-website.png",
+            "path": "side-project-2",
+            "download_url": "../src/assets/project-pdf/hakse-website.pdf"
+        },
+        {
+            "project_name":"Napt AR",
+            "project_description": "A travel guide mobile app with AR integraton",
+            "thumbnail": "../src/assets/images/project-thumbnails/napt-thumbnail.png",
+            "design_detail": "../src/assets/images/project-details/napt.png",
+            "path": "side-project-3",
+            "download_url": "../src/assets/project-pdf/napt.pdf",
+            "prototype_url": "https://www.figma.com/proto/J2VZP7RIU02IVjNsbuBqzL/NaptAR?node-id=232-17&starting-point-node-id=232%3A17&mode=design&t=ZfA9jWNtwuOGzclw-1"
+        },
+        {
+            "project_name":"QuikPay",
+            "project_description": "A mobile app for user to quickly scan and pay their bills",
+            "thumbnail": "../src/assets/images/project-thumbnails/quikpay-thumbnail.png",
+            "design_detail": "../src/assets/images/project-details/quikpay.png",
+            "path": "side-project-4",
+            "download_url": "../src/assets/project-pdf/quikpay.pdf",
+            "prototype_url": "https://www.figma.com/proto/ISYFzxWQ6HhQXmXCxjvLzU/scan-to-pay?node-id=416-460&starting-point-node-id=416%3A460&mode=design&t=RhbeAJIdNmTzF5Dt-1"
+        },
+        {
+            "project_name":"The Pizza Company Website",
+            "project_description": "Redesigning The Pizza Company website",
+            "thumbnail": "../src/assets/images/project-thumbnails/pizza-thumbnail.png",
+            "design_detail": "../src/assets/images/project-details/pizza.png",
+            "path": "side-project-5",
+            "download_url": "../src/assets/project-pdf/pizza.pdf"
+        },
+        {
+            "project_name":"Computer Online Shop",
+            "project_description": "Conceptual design of online computer shop",
+            "thumbnail": "../src/assets/images/project-thumbnails/computer-thumbnail.png",
+            "design_detail": "../src/assets/images/project-details/computer-shop.png",
+            "path": "side-project-6",
+            "download_url": "../src/assets/project-pdf/computer-shop.pdf",
+            "prototype_url": "https://www.figma.com/proto/HwHNMpwkqNHXpGeZ0c0ACq/Computer-Shop?type=design&node-id=29-159&t=TqW3UHprO6GyCtbJ-1&scaling=scale-down&page-id=1%3A3&starting-point-node-id=29%3A159&mode=design"
+        }
+    ],
+    "experiences":[
+        {
+            "company_name":"Kirirom Digital Cambodia",
+            "position": "UX/UI Designer",
+            "duration": "January 2023 - Present",
+            "description": "Crafted intuitive interfaces, conducted user research, and implemented data-driven design decisions to deliver seamless user experiences, resulting in increased user satisfaction and improved business outcomes."
+        },
+        {
+            "company_name":"Napt (Start-up)",
+            "position": "UX/UI and Graphic Designer",
+            "duration": "January 2019 - June 2022",
+            "description": "Conducted customer research to understand the users' requirements and created customers persona to ensure the design is equitable and enjoyable. Used Figma as main wireframe and prototype tool and also Adobe softwares for graphic design."
+        },
+        {
+            "company_name":"TheMentor",
+            "position": "Digital Marketer",
+            "duration": "June 2020 - June 2021",
+            "description": "Responsible for Facebook page operation with over 2k organic followers and assisted the web development team to ensure the usability. Joined lots of meeting with team lead and client to discuss what the audiences need to improve the service."
+        },
+        {
+            "company_name":"Digi Green Kyoudai",
+            "position": "Graphic Designer Intern",
+            "duration": "June 2019 - June 2020",
+            "description": "Collaborated with management team to adjust the embedded messages for audiences and planned, scripted, and edited promotional videos in various topics. Mainly used Illustrator to design promotional posters and Premeire Pro for video editing."
+        }
+    ],
+    "educations":[
+        {
+            "school_name":"Kirirom Institute of Technology",
+            "degree": "BS: Software Engineering",
+            "duration": "November 2018 - November 2022"
+        },
+        {
+            "school_name":"Coursera",
+            "degree": "Fundamental UX Course",
+            "duration": "August 2021 - September 2021"
+        }
+    ],
+    "awards":[
+        {
+            "event":"Reverse Innovation",
+            "rank": "Third Price Winner",
+            "date": "June 2021"
+        },
+        {
+            "event":"EnergyLab Hackathon",
+            "rank": "Third Price Winner",
+            "date": "September 2019"
+        }
+    ],
+    "contacts":[
+        {
+            "icon": "simple-line-icons:envolope",
+            "content": "sokvireak2000@gmail.com",
+            "type": "email",
+            "url": "mailTo:sokvireak2000@gmail.com"
+        },
+        {
+            "icon": "la:telegram",
+            "content": "0967361348",
+            "type": "telegram",
+            "url": "https://t.me/vireaksok"
+        },
+        {
+            "icon": "simple-line-icons:social-linkedin",
+            "content": "@vireaksok",
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/vireaksok/"
+        },
+        {
+            "icon": "simple-line-icons:social-facebook",
+            "content": "@vireaksok72",
+            "type": "facebook",
+            "url": "https://www.facebook.com/vireaksok72"
+        },
+        {
+            "icon": "simple-line-icons:social-instagram",
+            "content": "@vireak.work",
+            "type": "instagram",
+            "url": "https://www.instagram.com/vireak.work"
+        },
+        {
+            "icon": "simple-line-icons:social-dribbble",
+            "content": "@vireaksok",
+            "type": "dribbble",
+            "url": "https://dribbble.com/vireaksok"
+        }
+    ]
+}
