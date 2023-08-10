@@ -162,9 +162,9 @@
         },
         {
             "icon": "simple-line-icons:social-linkedin",
-            "content": "@sokvireak",
+            "content": "@vireaksok",
             "type": "linkedIn",
-            "url": "https://www.linkedin.com/in/sokvireak/"
+            "url": "https://www.linkedin.com/in/vireaksok/"
         },
         {
             "icon": "simple-line-icons:social-facebook",
@@ -180,9 +180,9 @@
         },
         {
             "icon": "simple-line-icons:social-dribbble",
-            "content": "@sokvireak",
+            "content": "@vireaksok",
             "type": "dribbble",
-            "url": "https://dribbble.com/sokvireak"
+            "url": "https://dribbble.com/vireaksok"
         }
     ]
 }
