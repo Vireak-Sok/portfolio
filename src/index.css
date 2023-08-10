@@ -13,7 +13,7 @@ body {
 
 @font-face {
     font-family: Main-Font;
-    src: url("../src/assets/fonts/Maven_Pro/static/MavenPro-Regular.ttf") format("truetype");
+    src: url("../src/assets/fonts/Maven_Pro/MavenPro-Regular.ttf") format("truetype");
   }
 
 @layer base {
