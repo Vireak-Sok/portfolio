@@ -50,7 +50,7 @@ function About() {
             </For>
           </div>
         </section>
-        <OutlineButton dowload={true} label={"Download PDF"} download_url={"https://drive.google.com/file/d/1uWz27hsxHO1tY2I5-d5ncnTpCPI7CJeG/view?usp=sharing"} hover={"hover:text-slate-800 dark:hover:text-slate-100 hover:tracking-wide"}/>
+        <OutlineButton dowload={true} label={"Download PDF"} download_url={"../src/assets/resume-vireak-sok.pdf"} hover={"hover:text-slate-800 dark:hover:text-slate-100 hover:tracking-wide"}/>
       </main>
     </Show>
   )
