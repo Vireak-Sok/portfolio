@@ -162,15 +162,15 @@
         },
         {
             "icon": "simple-line-icons:social-linkedin",
-            "content": "@vireaksok",
+            "content": "@sokvireak",
             "type": "linkedIn",
-            "url": "https://www.linkedin.com/in/vireaksok/"
+            "url": "https://www.linkedin.com/in/sokvireak/"
         },
         {
             "icon": "simple-line-icons:social-facebook",
-            "content": "@vireaksok72",
+            "content": "@sokvireak72",
             "type": "facebook",
-            "url": "https://www.facebook.com/vireaksok72"
+            "url": "https://www.facebook.com/sokvireak72"
         },
         {
             "icon": "simple-line-icons:social-instagram",
@@ -180,9 +180,9 @@
         },
         {
             "icon": "simple-line-icons:social-dribbble",
-            "content": "@vireaksok",
+            "content": "@sokvireak",
             "type": "dribbble",
-            "url": "https://dribbble.com/vireaksok"
+            "url": "https://dribbble.com/sokvireak"
         }
     ]
 }
