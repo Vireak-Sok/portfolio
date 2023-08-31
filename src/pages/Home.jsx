@@ -16,7 +16,7 @@ function Home() {
       <nav class="flex justify-center items-center w-full overflow-hidden h-6 relative text-slate-400">
         <ul class="flex justify-center gap-4 translate-y-6 animate-load-in">
           <li>
-            <A href='/work' class="hover:text-slate-800 dark:hover:text-slate-100 transition-colors">Work</A>
+            <A href='/worksdfsd' class="hover:text-slate-800 dark:hover:text-slate-100 transition-colors">Work</A>
           </li>
           <li>
             <A href='/contact' class="hover:text-slate-800 dark:hover:text-slate-100 transition-colors">Contact</A>
