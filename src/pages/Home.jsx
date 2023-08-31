@@ -28,7 +28,7 @@ function Home() {
       </nav>
       <section class="w-full flex flex-col items-center justify-center gap-4">
         <div class="w-2/3 relative overflow-hidden animate-reveal-sm md:animate-reveal-md dark:md:animate-reveal-md-dark">
-            <h1 class="p-0 pb-2 md:pb-4 h-10 md:h-24 m-0 text-2xl sm:text-4xl md:text-7xl text-center font-semibold font-hero-name tracking-widest uppercase font-hero-font">{data.info.name}</h1>
+            <h1 class="p-0 pb-2 md:pb-4 h-10 md:h-24 m-0 text-2xl sm:text-4xl md:text-7xl text-center font-semibold tracking-widest uppercase font-hero-font">{data.info.name}</h1>
         </div>
         <div class="flex justify-center items-center w-full overflow-hidden h-6 relative text-slate-400">
           <h1 class="flex justify-center gap-4 -translate-y-6 animate-reverse-load-in text-custom-grey">
