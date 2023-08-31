@@ -14,7 +14,7 @@ function App() {
       <Route path={"/work/:name"} component={Project}/>
       <Route path={"/contact"} component={Contact}/>
       <Route path={"/about"} component={About}/>
-      <Route path={"*"} component={NotFound}/>
+      <Route path={"/hello-world"} component={NotFound}/>
     </Routes>
   );
 }
