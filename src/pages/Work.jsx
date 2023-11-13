@@ -3,6 +3,7 @@ import data from "../assets/db.json"
 import { For, Show, onMount } from "solid-js"
 import MainProjectCard from "../components/MainProjectCard"
 import SideProjectCard from "../components/SideProjectCard"
+import BottomBar from "../components/BottomBar"
 
 function Work() {
 
@@ -15,7 +16,7 @@ function Work() {
 
   return (
     <Show when={data} fallback={<p>loading ...</p>}>
-      <main class="scrollbar-hide">
+      <main class="scrollbar-hide pb-24">
         <NavBar/>
         <section class="page-section">
           <h1 class="page-title">Projects</h1>
@@ -35,6 +36,7 @@ function Work() {
             </For>
           </div>
         </section>
+        <BottomBar/>
       </main>
     </Show>
   )

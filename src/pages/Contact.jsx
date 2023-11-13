@@ -2,6 +2,7 @@ import NavBar from "../components/NavBar"
 import ContactCard from "../components/ContactCard"
 import data from "../assets/db.json"
 import { For, Show, onMount } from "solid-js"
+import BottomBar from "../components/BottomBar"
 
 function Contact() {
   const contacts = data.contacts
@@ -12,7 +13,7 @@ function Contact() {
 
   return (
     <Show when={contacts} fallback={<p>Loading ...</p>}>
-      <main>
+      <main class="scrollbar-hide pb-24">
         <NavBar/>
         <section class="page-section">
           <h1 class="page-title">Contact</h1>
@@ -25,6 +26,7 @@ function Contact() {
             </For>
           </div>
         </section>
+        <BottomBar/>
       </main>
     </Show>
   )

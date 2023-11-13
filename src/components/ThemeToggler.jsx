@@ -1,7 +1,7 @@
 import { Icon } from "@iconify-icon/solid";
 import { createSignal, onMount } from "solid-js";
 
-function ThemeToggler({translateProp, animationProp}) {
+function ThemeToggler() {
   const [theme, setTheme] = createSignal("")
 
   onMount(() => {
@@ -33,14 +33,14 @@ function ThemeToggler({translateProp, animationProp}) {
   }, false);
 
   return (
-    <div class="flex justify-center items-center w-full overflow-hidden h-9 relative">
       <button 
-        class={`h-8 w-8 bg-slate-300 dark:bg-slate-600 flex items-center justify-center ${translateProp} ${animationProp}`} aria-label="Toggle Dark Mode"
+        class='flex items-center justify-center gap-2 px-2 sm:px-4 py-2 border border-solid border-slate-900 dark:border-slate-200 text-slate-900 hover:text-slate-200 dark:text-slate-200 dark:hover:text-slate-800 font-semibold transition-all duration-500 ease-in-out delay-100 hover:bg-slate-800 dark:hover:bg-slate-200 hover:font-light'
+        aria-label="Toggle Dark Mode"
         onclick={() => {handleClick()}}
       >
+        <p class="sm:flex hidden">Theme</p>
         {theme() === "dark" ? <Icon icon={"line-md:sunny-outline-to-moon-alt-loop-transition"}/> : <Icon icon={"line-md:moon-alt-to-sunny-outline-loop-transition"}/>}
       </button>
-    </div>
   )
 }
 
