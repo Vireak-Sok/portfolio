@@ -19,8 +19,8 @@ function Project() {
   return (
     <main>
       <NavBar/>
-      <section class="w-full flex flex-1 flex-col justify-center items-center pt-6 md:pt-12 gap-8 md:px-24 lg:px-64 px-6">
-        <h1 class="md:pb-4 h-10 md:h-24 m-0 text-2xl sm:text-3xl md:text-6xl text-center font-semibold uppercase flex justify-center pb-2">{project[0].project_name}</h1>
+      <section class="w-full flex flex-1 flex-col justify-center items-center pt-6 md:pt-12 gap-8 md:px-24 lg:px-64 px-6 text-slate-800 dark:text-slate-100 transition-all duration-500 ease-in-out delay-100">
+        <h1 class="h-10 md:h-24 m-0 text-2xl sm:text-3xl md:text-6xl text-center font-semibold uppercase flex justify-center">{project[0].project_name}</h1>
         <p class="flex justify-center text-center md:w-3/4">{project[0].project_description}</p>
 
         {
