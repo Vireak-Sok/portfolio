@@ -10,7 +10,7 @@ function OutlineButton({label, url, hover, icon, dowload, download_url}) {
   }
 
   function redirectFunc(){
-    window.open({url}, "_blank");
+    window.open(url, "_blank");
   }
   
   return (
