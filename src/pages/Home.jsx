@@ -59,7 +59,7 @@ function Home() {
               <a href={data.contacts[2].url} rel='noreferrer' target='_blank' class="flex justify-center items-center w-8 h-8 group border border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-100 transition-all ease-in-out">
                 <Icon icon={data.contacts[2].icon} class="text-slate-400 group-hover:text-slate-800 dark:group-hover:text-slate-100"/>
               </a>
-              <a href={data.contacts[5].url} rel='noreferrer' target='_blank' class="flex justify-center items-center w-8 h-8 group border border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-100 transition-all ease-in-out">
+              <a href={data.contacts[3].url} rel='noreferrer' target='_blank' class="flex justify-center items-center w-8 h-8 group border border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-100 transition-all ease-in-out">
                 <Icon icon={data.contacts[3].icon} class="text-slate-400 group-hover:text-slate-800 dark:group-hover:text-slate-100"/>
               </a>
             </div>
